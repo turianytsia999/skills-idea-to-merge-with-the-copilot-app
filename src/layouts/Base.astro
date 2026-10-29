@@ -57,13 +57,20 @@ const { title = "Mona's Bookmark Manager App" } = Astro.props;
         --font-head: 'Monaspace Xenon', 'Monaspace Neon', ui-monospace, monospace;
       }
       * { box-sizing: border-box; }
+      [hidden] { display: none !important; }
       body {
         font-family: var(--font-body);
         line-height: 1.5;
         max-width: 40rem;
         margin: 0 auto;
         padding: 2.5rem 1.25rem 4rem;
+        background:
+          radial-gradient(40rem 20rem at 50% -6rem, color-mix(in srgb, var(--accent) 16%, transparent), transparent),
+          Canvas;
+        min-height: 100vh;
       }
+      .error { margin: 0 0 0.75rem; font-size: 0.85rem; color: #dc2626; }
+      .bookmark .sep { color: var(--muted); white-space: pre; }
       header { margin-bottom: 1.5rem; }
       h1 { margin: 0 0 0.25rem; font-size: 1.75rem; font-family: var(--font-head); letter-spacing: -0.01em; }
       .tagline { margin: 0; color: var(--muted); }
@@ -127,10 +134,12 @@ const { title = "Mona's Bookmark Manager App" } = Astro.props;
         padding: 0.75rem 0.9rem;
         border: 1px solid var(--border);
         border-radius: var(--radius);
+        background: color-mix(in srgb, Canvas 92%, var(--accent));
+        box-shadow: 0 1px 2px #0001;
       }
-      .bookmark .url { flex: 1 1 12rem; overflow-wrap: anywhere; }
+      .bookmark .url { flex: 0 1 auto; min-width: 0; overflow-wrap: anywhere; color: var(--accent); }
       .bookmark .slug {
-        font-family: ui-monospace, "SF Mono", monospace;
+        font-family: var(--font-body);
         font-size: 0.85rem;
         padding: 0.15rem 0.5rem;
         border-radius: 999px;
