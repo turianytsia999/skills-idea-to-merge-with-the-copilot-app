@@ -1,24 +1,24 @@
-# 🗺️ Mona's Bookmark Manager Roadmap
+﻿# рџ—єпёЏ Mona's Bookmark Manager Roadmap
 
 A quick look at what we plan to build next and the bugs and risks we're keeping an eye on.
 
 | Area | Item | Type | Priority |
 |------|------|------|----------|
-| Discovery | Search and filter bookmarks | 🚀 | High |
-| Editing | Edit a bookmark | 🚀 | Medium |
-| Organization | Tags or folders | 🚀 | Medium |
-| Data integrity | Duplicate slugs on re-add | 🐞 | High |
-| Validation | Empty-URL validation | 🐞 | Medium |
-| Persistence | Bookmarks lost when localStorage is cleared | 🐞 | Medium |
+| Discovery | Search & filter bookmarks | рџљЂ | High |
+| Editing | Edit a bookmark | рџљЂ | Medium |
+| Organization | Tags or folders | рџљЂ | Medium |
+| Data integrity | Duplicate slugs on re-add | рџђћ | High |
+| Validation | Empty-URL validation | рџђћ | Medium |
+| Persistence | Bookmarks lost when localStorage is cleared | рџђћ | Medium |
 
-## 🚀 Planned features
+## рџљЂ Planned features
 
-- 🔖 Search and filter bookmarks — priority: high
-- ✏️ Edit a bookmark — priority: medium
-- 🗂️ Tags or folders — priority: medium
+- рџ”– Search & filter bookmarks вЂ” priority: high
+- вњЏпёЏ Edit a bookmark вЂ” priority: medium
+- рџ—‚пёЏ Tags or folders вЂ” priority: medium
 
-## 🐞 Known bugs & risks
+## рџђћ Known bugs & risks
 
-- 🧩 Duplicate slugs on re-add — priority: high
-- 🚫 Empty-URL validation — priority: medium
-- 💾 Bookmarks lost when localStorage is cleared — priority: medium
+- рџ§© Duplicate slugs on re-add вЂ” priority: high
+- рџљ« Empty-URL validation вЂ” priority: medium
+- рџ’ѕ Bookmarks lost when localStorage is cleared вЂ” priority: medium
