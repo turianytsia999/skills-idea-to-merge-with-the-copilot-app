@@ -2,27 +2,23 @@
 
 A quick look at what we plan to build next and the bugs and risks we're keeping an eye on.
 
-## 📊 Overview
-
 | Area | Item | Type | Priority |
 |------|------|------|----------|
-| Discovery | Search & filter bookmarks | 🚀 | High |
+| Discovery | Search and filter bookmarks | 🚀 | High |
 | Editing | Edit a bookmark | 🚀 | Medium |
 | Organization | Tags or folders | 🚀 | Medium |
-| Data | Import / export | 🚀 | Low |
-| Data integrity | Duplicate slugs on re-add | 🐞 | Medium |
-| Validation | Empty-URL validation | 🐞 | High |
-| Persistence | Bookmarks lost when localStorage is cleared | 🐞 | High |
+| Data integrity | Duplicate slugs on re-add | 🐞 | High |
+| Validation | Empty-URL validation | 🐞 | Medium |
+| Persistence | Bookmarks lost when localStorage is cleared | 🐞 | Medium |
 
 ## 🚀 Planned features
 
-- 🔖 Search & filter bookmarks — priority: high
+- 🔖 Search and filter bookmarks — priority: high
 - ✏️ Edit a bookmark — priority: medium
-- 🏷️ Tags or folders — priority: medium
-- 📦 Import/export bookmarks — priority: low
+- 🗂️ Tags or folders — priority: medium
 
 ## 🐞 Known bugs & risks
 
-- 🐞 Duplicate slugs on re-add — priority: medium
-- 🐞 Empty-URL validation missing — priority: high
-- 🐞 Bookmarks lost when localStorage is cleared — priority: high
+- 🧩 Duplicate slugs on re-add — priority: high
+- 🚫 Empty-URL validation — priority: medium
+- 💾 Bookmarks lost when localStorage is cleared — priority: medium
