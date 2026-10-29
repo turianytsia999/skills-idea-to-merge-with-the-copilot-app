@@ -1,4 +1,4 @@
-﻿# рџ—єпёЏ Mona's Bookmark Manager Roadmap
+# рџ—єпёЏ Mona's Bookmark Manager Roadmap
 
 A quick look at what we plan to build next and the bugs and risks we're keeping an eye on.
 
